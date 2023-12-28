@@ -11,19 +11,23 @@ h1 {
     text-align: center;
     color: #FF7A01;
     font-size: 200px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 50px;
     font-kerning: 1px;
     letter-spacing: -30px;
     font-weight: 100;
     text-shadow: #000000 2px 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
-    width: 1280px;
+    width: 70%;
     height: auto;
-    display: block;
+    display: flex;
     margin: auto;
+    box-shadow: #000000 5px 5px 20px; 
 }
 
 .dscrpt {
@@ -42,4 +46,87 @@ img {
     font-weight: 100;
     letter-spacing: 3px;
     font-size: 13px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 50px 50px;
+}
+
+.ingre {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.ingr {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.ingreeds li {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 5px 0 0 0;
+}
+
+.stps {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.stp {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.steps li {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 5px 0 0 0;
+}
+
+.btn {
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
+button {
+    background-color: #FF7A01;
+    box-shadow: #000000 2px 2px 2px;
+    border: none;
+    border-radius: 30px;
+    color: #F3E9E9;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #F3E9E9;
+    color: #FF7A01;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.rec-links {
+    margin: 50px 0 50px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.rec-links a {
+    text-decoration: none;
+}
+
+.rec-links a:hover {
+    color: #FF7A01;
+    transition: 0.5s;
+}
+
+strong {
+    color: #FF7A01;
 }
